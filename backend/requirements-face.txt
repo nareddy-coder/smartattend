@@ -1,0 +1,7 @@
+# Face recognition packages (requires 1GB+ RAM)
+# Install these on paid tier: pip install -r requirements-face.txt
+tensorflow
+mtcnn
+deepface
+tf-keras
+scipy

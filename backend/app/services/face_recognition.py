@@ -2,19 +2,36 @@
 Face recognition service for SmartAttend (singleton).
 Uses DeepFace with FaceNet model for embedding generation and MTCNN for face detection.
 Provides: face detection, embedding generation, and cosine similarity matching.
+
+NOTE: Face recognition requires TensorFlow + DeepFace which need 1GB+ RAM.
+On free-tier hosting (512MB), these packages are not installed and face
+recognition is disabled. All other features (login, attendance, timetable) work.
+To enable: pip install -r requirements-face.txt
 """
 
 import os
 import cv2
 import logging
 import numpy as np
-from deepface import DeepFace
-from scipy.spatial.distance import cosine
 
 # Suppress TensorFlow logging
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 logger = logging.getLogger(__name__)
+
+# Try importing face recognition packages (optional)
+try:
+    from deepface import DeepFace
+    from scipy.spatial.distance import cosine
+    FACE_RECOGNITION_AVAILABLE = True
+    logger.info("Face recognition packages loaded successfully.")
+except ImportError:
+    FACE_RECOGNITION_AVAILABLE = False
+    logger.warning(
+        "Face recognition packages not available (tensorflow/deepface not installed). "
+        "Face detection and embedding features are disabled. "
+        "To enable, install: pip install -r requirements-face.txt"
+    )
 
 
 class FaceRecognitionService:
@@ -28,6 +45,9 @@ class FaceRecognitionService:
 
     def initialize_models(self):
         logger.info("FaceRecognitionService: Initializing...")
+        if not FACE_RECOGNITION_AVAILABLE:
+            logger.warning("FaceRecognitionService: Running without face recognition (packages not installed).")
+            return
         try:
             dummy = np.zeros((160, 160, 3), dtype=np.uint8)
             DeepFace.represent(
@@ -45,6 +65,10 @@ class FaceRecognitionService:
         Detect faces using MTCNN (much better than OpenCV for multi-face detection).
         Returns: list of {"face_img": cropped_face_uint8, "box": (x, y, w, h)}
         """
+        if not FACE_RECOGNITION_AVAILABLE:
+            logger.error("Face recognition not available. Install tensorflow and deepface.")
+            return []
+
         if image_np is None:
             return []
 
@@ -146,6 +170,10 @@ class FaceRecognitionService:
 
     def generate_embedding(self, face_img):
         """Generate FaceNet embedding from a face image (uint8 BGR, 160x160)."""
+        if not FACE_RECOGNITION_AVAILABLE:
+            logger.error("Face recognition not available. Install tensorflow and deepface.")
+            return None
+
         try:
             embeddings = DeepFace.represent(
                 img_path=face_img,
@@ -167,6 +195,9 @@ class FaceRecognitionService:
             return None
 
     def compute_similarity(self, embed1, embed2):
+        if not FACE_RECOGNITION_AVAILABLE:
+            return 0.0
+
         e1 = np.array(embed1, dtype=np.float64)
         e2 = np.array(embed2, dtype=np.float64)
 

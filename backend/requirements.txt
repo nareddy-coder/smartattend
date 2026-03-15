@@ -5,15 +5,10 @@ python-multipart
 python-jose[cryptography]
 passlib[bcrypt]
 bcrypt
-tensorflow
-mtcnn
 opencv-python-headless
 numpy
-scipy
 pandas
 openpyxl
-deepface
-tf-keras
 alembic
 fpdf2
 psycopg2-binary
