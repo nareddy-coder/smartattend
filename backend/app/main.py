@@ -67,7 +67,7 @@ app.include_router(notifications.router, prefix="/notifications", tags=["notific
 @app.on_event("startup")
 def on_startup():
     logger.info("Starting up - creating database tables...")
-    Base.metadata.create_all(bind=engine)
+    Base.metadata.create_all(bind=engine, checkfirst=True)
     logger.info("Database tables created.")
 
     # Create default admin if not exists

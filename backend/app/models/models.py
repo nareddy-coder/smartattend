@@ -16,7 +16,7 @@ def _utc_now():
     return datetime.now(timezone.utc)
 
 class User(Base):
-    __tablename__ = "users"
+    __tablename__ = "app_users"
 
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True)
@@ -58,7 +58,7 @@ class Student(Base):
     semester = Column(Integer, nullable=False)
     department = Column(String, nullable=True)
     section_id = Column(Integer, ForeignKey("sections.id"), nullable=False)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    user_id = Column(Integer, ForeignKey("app_users.id"), nullable=True)
     enrollment_date = Column(DateTime, default=_utc_now)
 
     section = relationship("Section", back_populates="students")
@@ -79,7 +79,7 @@ class FacultyAssignment(Base):
     __tablename__ = "faculty_assignments"
 
     id = Column(Integer, primary_key=True, index=True)
-    faculty_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    faculty_id = Column(Integer, ForeignKey("app_users.id"), nullable=False)
     subject_name = Column(String, nullable=False)
     periods = Column(Integer, nullable=False)
     department = Column(String, nullable=False)
@@ -102,7 +102,7 @@ class TimetableSlot(Base):
     day_of_week = Column(Integer, nullable=False)   # 0=Monday .. 5=Saturday
     period_number = Column(Integer, nullable=False)  # 1..7
     subject_name = Column(String, nullable=False)
-    faculty_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    faculty_id = Column(Integer, ForeignKey("app_users.id"), nullable=False)
     created_at = Column(DateTime, default=_utc_now)
 
     section = relationship("Section")
@@ -128,7 +128,7 @@ class ActivityLog(Base):
     __tablename__ = "activity_logs"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    user_id = Column(Integer, ForeignKey("app_users.id"), nullable=True)
     action = Column(String, nullable=False)
     detail = Column(String, nullable=True)
     timestamp = Column(DateTime, default=_utc_now)
@@ -140,7 +140,7 @@ class Notification(Base):
     __tablename__ = "notifications"
 
     id = Column(Integer, primary_key=True, index=True)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    user_id = Column(Integer, ForeignKey("app_users.id"), nullable=False)
     title = Column(String, nullable=False)
     message = Column(String, nullable=False)
     type = Column(String, default="info")  # info, warning, error, success
@@ -159,7 +159,7 @@ class LeaveRequest(Base):
     to_date = Column(DateTime, nullable=False)
     reason = Column(String, nullable=False)
     status = Column(String, default="pending")  # pending, approved, rejected
-    reviewed_by = Column(Integer, ForeignKey("users.id"), nullable=True)
+    reviewed_by = Column(Integer, ForeignKey("app_users.id"), nullable=True)
     reviewed_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=_utc_now)
 
