@@ -420,6 +420,13 @@ const AdminDashboard = () => {
     const pullStartY = useRef(0);
     const scrollContainerRef = useRef(null);
 
+    // Phase 8: Role-based Access (HOD View) state — role from DB via AuthContext
+    // NOTE: Moved here (before logActivity) to avoid Temporal Dead Zone — isHodLogin
+    // is used in logActivity's dependency array which is evaluated immediately.
+    const isHodLogin = user?.role === 'hod';
+    const [viewMode, setViewMode] = useState(isHodLogin ? 'hod' : 'admin');
+    const [hodDepartment, setHodDepartment] = useState(user?.department || '');
+
     // Activity Log state
     const [activityLogs, setActivityLogs] = useState([]);
     const [activityLoading, setActivityLoading] = useState(false);
@@ -508,11 +515,6 @@ const AdminDashboard = () => {
     // Phase 8: Bulk Notifications state
     const [bulkNotifyOpen, setBulkNotifyOpen] = useState(false);
     const [notifyConfig, setNotifyConfig] = useState({ recipients: 'all_students', type: 'email', subject: '', message: '', department: '', year: '', template: '' });
-
-    // Phase 8: Role-based Access (HOD View) state — role from DB via AuthContext
-    const isHodLogin = user?.role === 'hod';
-    const [viewMode, setViewMode] = useState(isHodLogin ? 'hod' : 'admin');
-    const [hodDepartment, setHodDepartment] = useState(user?.department || '');
 
     // Faculty workload (computed from assignments)
     const getFacultyWorkload = (facultyId) => {
