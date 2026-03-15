@@ -838,12 +838,7 @@ const AdminDashboard = () => {
     const showConfirm = (title, message, onConfirm) => setConfirmDialog({ open: true, title, message, onConfirm });
     const closeConfirmDialog = () => setConfirmDialog({ open: false, title: '', message: '', onConfirm: null });
 
-    useEffect(() => {
-        // Name and department come from AuthContext (DB) — no need to fetch /users/me
-        if (user?.name) setAdminName(user.name);
-        if (isHodLogin && user?.department) setHodDepartment(user.department);
-        fetchData();
-    }, []);
+    // NOTE: Init useEffect moved below fetchData definition to avoid temporal dead zone
 
     // Determine HOD department override — when HOD mode is active with a selected department,
     // it acts as a global department filter across all tabs
@@ -1291,6 +1286,13 @@ const AdminDashboard = () => {
         } catch (_) {}
         setAttendanceLoading(false);
     };
+
+    // Init useEffect — placed after all fetch function declarations to avoid TDZ
+    useEffect(() => {
+        if (user?.name) setAdminName(user.name);
+        if (isHodLogin && user?.department) setHodDepartment(user.department);
+        fetchData();
+    }, []);
 
     // Row selection helpers
     const toggleStudentSelection = (rollNumber) => {
