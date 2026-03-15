@@ -1,0 +1,31 @@
+# Docker Compose configuration for SmartAttend
+# Runs the FastAPI backend and React frontend together
+# Usage: docker-compose up --build
+
+version: '3.8'
+
+services:
+  # FastAPI backend - handles API, face recognition, and database
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend-data:/app/data  # Persist SQLite database
+      - backend-static:/app/static  # Persist uploaded files
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+
+  # React frontend - served via Nginx, proxies API requests to backend
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-data:
+  backend-static:

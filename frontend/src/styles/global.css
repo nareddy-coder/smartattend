@@ -1,0 +1,152 @@
+/**
+ * Global Styles for SmartAttend
+ * - CSS reset and base styles
+ * - Scrollbar, focus, and selection styling
+ * - Animation utilities (fadeIn, slideUp, shake)
+ * - Responsive breakpoints
+ * - Accessibility: reduced-motion support
+ */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap');
+@import './variables.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg);
+    height: 100%;
+    overflow: hidden;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-gray-100);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-gray-400);
+    border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gray-500);
+}
+
+/* Focus Styles */
+*:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+    background-color: var(--color-primary-light);
+    color: white;
+}
+
+/* Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Buttons Reset */
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Input Reset */
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Smooth Transitions - only apply to interactive elements */
+a,
+button,
+input,
+textarea,
+select,
+.MuiButton-root,
+.MuiIconButton-root,
+.MuiMenuItem-root,
+.MuiTab-root,
+.MuiChip-root {
+    transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease;
+}
+
+/* Dark mode transitions */
+body,
+.MuiPaper-root,
+.MuiCard-root,
+.MuiDialog-paper,
+.MuiTableCell-root {
+    transition: background-color var(--transition-base), color var(--transition-base), border-color var(--transition-base);
+}
+
+/* Disable transitions on page load */
+.preload * {
+    transition: none !important;
+}
+
+/* Dark mode scrollbar */
+.dark-mode ::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+.dark-mode ::selection {
+    background-color: rgba(70, 123, 240, 0.4);
+    color: #f1f5f9;
+}

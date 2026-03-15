@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="64">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#shine)"/>
+  <!-- Shield / person silhouette -->
+  <path d="M32 14 C26 14 22 18.5 22 24 C22 28.5 25 32 28 33.5 C22 35 16 38 16 44 L16 46 C16 47.1 16.9 48 18 48 L46 48 C47.1 48 48 47.1 48 46 L48 44 C48 38 42 35 36 33.5 C39 32 42 28.5 42 24 C42 18.5 38 14 32 14Z" fill="#fff" opacity="0.9"/>
+  <!-- AI scan dots - left side -->
+  <circle cx="12" cy="20" r="1.8" fill="#fff" opacity="0.6"/>
+  <circle cx="12" cy="26" r="1.8" fill="#fff" opacity="0.45"/>
+  <circle cx="12" cy="32" r="1.8" fill="#fff" opacity="0.3"/>
+  <!-- AI scan dots - right side -->
+  <circle cx="52" cy="20" r="1.8" fill="#fff" opacity="0.6"/>
+  <circle cx="52" cy="26" r="1.8" fill="#fff" opacity="0.45"/>
+  <circle cx="52" cy="32" r="1.8" fill="#fff" opacity="0.3"/>
+  <!-- Green verified badge -->
+  <circle cx="48" cy="48" r="10" fill="#059669"/>
+  <circle cx="48" cy="48" r="8.5" fill="#10b981"/>
+  <path d="M43.5 48 L46.5 51 L53 44.5" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

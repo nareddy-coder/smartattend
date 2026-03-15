@@ -1,0 +1,47 @@
+# Environment files (contain secrets)
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+backend/venv/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite3
+*.bin
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Credentials (NEVER commit)
+creds
+
+# Zip archives
+*.zip
+
+# Images (non-essential)
+*.jpeg
+*.jpg
+*.png
+
+# Claude Code
+.claude/

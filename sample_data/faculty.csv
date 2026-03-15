@@ -1,0 +1,70 @@
+name,employee_id,email,phone,department,designation
+Dr. Akhila Nandipati,AEC2001,aec2001@aec.edu.in,9200000001,CSE,HOD
+Dr. Abhishek Vemula,AEC2002,aec2002@aec.edu.in,9200000002,CSE,Professor
+Dr. Aditya Sahu,AEC2003,aec2003@aec.edu.in,9200000003,CSE,Professor
+Ms. Ankitha Palagiri,AEC2004,aec2004@aec.edu.in,9200000004,CSE,Associate Professor
+Mr. Akash Peddinti,AEC2005,aec2005@aec.edu.in,9200000005,CSE,Associate Professor
+Mr. Akhil Arepalli,AEC2006,aec2006@aec.edu.in,9200000006,CSE,Assistant Professor
+Ms. Bhavana Kandula,AEC2007,aec2007@aec.edu.in,9200000007,CSE,Assistant Professor
+Mrs. Anand Dondapati,AEC2008,aec2008@aec.edu.in,9200000008,CSE,Assistant Professor
+Mr. Anil Kommineni,AEC2009,aec2009@aec.edu.in,9200000009,CSE,Assistant Professor
+Dr. Chaitra Saride,AEC2010,aec2010@aec.edu.in,9200000010,ECE,HOD
+Dr. Arjun Vaddadi,AEC2011,aec2011@aec.edu.in,9200000011,ECE,Professor
+Dr. Arun Nimmala,AEC2012,aec2012@aec.edu.in,9200000012,ECE,Professor
+Mr. Durga Kasireddy,AEC2013,aec2013@aec.edu.in,9200000013,ECE,Associate Professor
+Mr. Bala Gogineni,AEC2014,aec2014@aec.edu.in,9200000014,ECE,Associate Professor
+Ms. Bhanu Talluri,AEC2015,aec2015@aec.edu.in,9200000015,ECE,Assistant Professor
+Dr. Harini Chilukuri,AEC2016,aec2016@aec.edu.in,9200000016,EEE,HOD
+Dr. Chaitanya Pilli,AEC2017,aec2017@aec.edu.in,9200000017,EEE,Professor
+Dr. Charan Koppula,AEC2018,aec2018@aec.edu.in,9200000018,EEE,Professor
+Mr. Indrani Thota,AEC2019,aec2019@aec.edu.in,9200000019,EEE,Associate Professor
+Ms. Dheeraj Challagundla,AEC2020,aec2020@aec.edu.in,9200000020,EEE,Associate Professor
+Ms. Dinesh Sunkara,AEC2021,aec2021@aec.edu.in,9200000021,EEE,Assistant Professor
+Dr. Jyothirmai Ganji,AEC2022,aec2022@aec.edu.in,9200000022,ME,HOD
+Dr. Eswar Pathuri,AEC2023,aec2023@aec.edu.in,9200000023,ME,Professor
+Dr. Ganesh Kurella,AEC2024,aec2024@aec.edu.in,9200000024,ME,Professor
+Ms. Keerthana Guntupalli,AEC2025,aec2025@aec.edu.in,9200000025,ME,Associate Professor
+Mr. Hari Chidipothu,AEC2026,aec2026@aec.edu.in,9200000026,ME,Associate Professor
+Ms. Harish Dendukuri,AEC2027,aec2027@aec.edu.in,9200000027,ME,Assistant Professor
+Dr. Likhitha Shaik,AEC2028,aec2028@aec.edu.in,9200000028,CE,HOD
+Dr. Jagadeesh Gundala,AEC2029,aec2029@aec.edu.in,9200000029,CE,Professor
+Dr. Jatin Bolla,AEC2030,aec2030@aec.edu.in,9200000030,CE,Professor
+Mrs. Manisha Boddu,AEC2031,aec2031@aec.edu.in,9200000031,CE,Associate Professor
+Mr. Kiran Rachapudi,AEC2032,aec2032@aec.edu.in,9200000032,CE,Associate Professor
+Mr. Krishna Parasa,AEC2033,aec2033@aec.edu.in,9200000033,CE,Assistant Professor
+Dr. Mythili Badugu,AEC2034,aec2034@aec.edu.in,9200000034,IT,HOD
+Dr. Lalith Kollipara,AEC2035,aec2035@aec.edu.in,9200000035,IT,Professor
+Dr. Lokesh Lanka,AEC2036,aec2036@aec.edu.in,9200000036,IT,Professor
+Mr. Niharika Chappidi,AEC2037,aec2037@aec.edu.in,9200000037,IT,Associate Professor
+Mr. Mahesh Dandu,AEC2038,aec2038@aec.edu.in,9200000038,IT,Associate Professor
+Mr. Manoj Vegesna,AEC2039,aec2039@aec.edu.in,9200000039,IT,Assistant Professor
+Dr. Pallavi Palleti,AEC2040,aec2040@aec.edu.in,9200000040,CSE (AI&ML),HOD
+Dr. Mukesh Potluri,AEC2041,aec2041@aec.edu.in,9200000041,CSE (AI&ML),Professor
+Dr. Naga Raju Sappa,AEC2042,aec2042@aec.edu.in,9200000042,CSE (AI&ML),Professor
+Ms. Pranavi Vankayala,AEC2043,aec2043@aec.edu.in,9200000043,CSE (AI&ML),Associate Professor
+Ms. Naveen Kakumanu,AEC2044,aec2044@aec.edu.in,9200000044,CSE (AI&ML),Associate Professor
+Mr. Nikhil Annam,AEC2045,aec2045@aec.edu.in,9200000045,CSE (AI&ML),Assistant Professor
+Dr. Rachana Meka,AEC2046,aec2046@aec.edu.in,9200000046,CSE (DS),HOD
+Dr. Pavan Nuthalapati,AEC2047,aec2047@aec.edu.in,9200000047,CSE (DS),Professor
+Dr. Pradeep Vadlamudi,AEC2048,aec2048@aec.edu.in,9200000048,CSE (DS),Professor
+Ms. Sahasra Garapati,AEC2049,aec2049@aec.edu.in,9200000049,CSE (DS),Associate Professor
+Mr. Prasad Chintala,AEC2050,aec2050@aec.edu.in,9200000050,CSE (DS),Associate Professor
+Ms. Prudhvi Ravulaparthi,AEC2051,aec2051@aec.edu.in,9200000051,CSE (DS),Assistant Professor
+Dr. Sirisha Muvva,AEC2052,aec2052@aec.edu.in,9200000052,CSE (CS),HOD
+Dr. Rajesh Bejjanki,AEC2053,aec2053@aec.edu.in,9200000053,CSE (CS),Professor
+Dr. Raju Nelluri,AEC2054,aec2054@aec.edu.in,9200000054,CSE (CS),Professor
+Ms. Sravani Bandi,AEC2055,aec2055@aec.edu.in,9200000055,CSE (CS),Associate Professor
+Ms. Ramesh Yerra,AEC2056,aec2056@aec.edu.in,9200000056,CSE (CS),Associate Professor
+Ms. Ravi Maddipati,AEC2057,aec2057@aec.edu.in,9200000057,CSE (CS),Assistant Professor
+Dr. Supriya Duvvuri,AEC2058,aec2058@aec.edu.in,9200000058,MBA,HOD
+Dr. Sai Ganta,AEC2059,aec2059@aec.edu.in,9200000059,MBA,Professor
+Dr. Sandeep Manepalli,AEC2060,aec2060@aec.edu.in,9200000060,MBA,Professor
+Mrs. Tejaswi Gajjela,AEC2061,aec2061@aec.edu.in,9200000061,MBA,Associate Professor
+Mr. Sathish Battula,AEC2062,aec2062@aec.edu.in,9200000062,MBA,Associate Professor
+Mrs. Shankar Alavala,AEC2063,aec2063@aec.edu.in,9200000063,MBA,Assistant Professor
+Dr. Usha Boyapally,AEC2064,aec2064@aec.edu.in,9200000064,MCA,HOD
+Dr. Srinivas Uppuluri,AEC2065,aec2065@aec.edu.in,9200000065,MCA,Professor
+Dr. Sumanth Vallabhaneni,AEC2066,aec2066@aec.edu.in,9200000066,MCA,Professor
+Ms. Vidya Konda,AEC2067,aec2067@aec.edu.in,9200000067,MCA,Associate Professor
+Mrs. Suresh Manne,AEC2068,aec2068@aec.edu.in,9200000068,MCA,Associate Professor
+Mr. Tarun Kakarla,AEC2069,aec2069@aec.edu.in,9200000069,MCA,Assistant Professor
