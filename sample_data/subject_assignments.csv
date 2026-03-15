@@ -1,421 +1,421 @@
 employee_id,subject_name,periods,department,year,section_name
-AEC2002,Programming in C,4,CSE,1,A
-AEC2003,Engineering Mathematics I,5,CSE,1,A
-AEC2004,Engineering Physics,5,CSE,1,A
-AEC2005,English,5,CSE,1,A
-AEC2006,Engineering Drawing,4,CSE,1,A
-AEC2002,Programming in C,4,CSE,1,B
-AEC2003,Engineering Mathematics I,5,CSE,1,B
-AEC2004,Engineering Physics,4,CSE,1,B
-AEC2005,English,4,CSE,1,B
-AEC2006,Engineering Drawing,5,CSE,1,B
-AEC2002,Programming in C,4,CSE,1,C
-AEC2003,Engineering Mathematics I,5,CSE,1,C
-AEC2004,Engineering Physics,5,CSE,1,C
-AEC2005,English,5,CSE,1,C
-AEC2006,Engineering Drawing,5,CSE,1,C
-AEC2002,Data Structures,4,CSE,2,A
-AEC2003,Operating Systems,5,CSE,2,A
-AEC2004,DBMS,5,CSE,2,A
-AEC2005,Computer Networks,4,CSE,2,A
-AEC2006,OOP with Java,5,CSE,2,A
-AEC2002,Data Structures,4,CSE,2,B
-AEC2003,Operating Systems,5,CSE,2,B
-AEC2004,DBMS,5,CSE,2,B
-AEC2005,Computer Networks,5,CSE,2,B
-AEC2006,OOP with Java,5,CSE,2,B
-AEC2002,Data Structures,5,CSE,2,C
-AEC2003,Operating Systems,4,CSE,2,C
-AEC2004,DBMS,4,CSE,2,C
-AEC2005,Computer Networks,4,CSE,2,C
-AEC2006,OOP with Java,4,CSE,2,C
-AEC2002,Machine Learning,5,CSE,3,A
-AEC2003,Compiler Design,4,CSE,3,A
-AEC2004,AI,4,CSE,3,A
-AEC2005,Software Engineering,4,CSE,3,A
-AEC2006,Web Technologies,5,CSE,3,A
-AEC2002,Machine Learning,5,CSE,3,B
-AEC2003,Compiler Design,5,CSE,3,B
-AEC2004,AI,5,CSE,3,B
-AEC2005,Software Engineering,4,CSE,3,B
-AEC2006,Web Technologies,5,CSE,3,B
-AEC2002,Machine Learning,5,CSE,3,C
-AEC2003,Compiler Design,4,CSE,3,C
-AEC2004,AI,5,CSE,3,C
-AEC2005,Software Engineering,4,CSE,3,C
-AEC2006,Web Technologies,5,CSE,3,C
-AEC2002,Cloud Computing,4,CSE,4,A
-AEC2003,Big Data,5,CSE,4,A
-AEC2004,Information Security,4,CSE,4,A
-AEC2005,Deep Learning,4,CSE,4,A
-AEC2006,Project Work,5,CSE,4,A
-AEC2002,Cloud Computing,5,CSE,4,B
-AEC2003,Big Data,5,CSE,4,B
-AEC2004,Information Security,5,CSE,4,B
-AEC2005,Deep Learning,4,CSE,4,B
-AEC2006,Project Work,5,CSE,4,B
-AEC2002,Cloud Computing,4,CSE,4,C
-AEC2003,Big Data,4,CSE,4,C
-AEC2004,Information Security,4,CSE,4,C
-AEC2005,Deep Learning,5,CSE,4,C
-AEC2006,Project Work,5,CSE,4,C
-AEC2011,Basic Electronics,5,ECE,1,A
+AEC2030,Engineering Mechanics,4,CE,1,A
+AEC2028,Engineering Mathematics I,5,CE,1,A
+AEC2030,Engineering Physics,5,CE,1,A
+AEC2032,English,4,CE,1,A
+AEC2032,Surveying I,5,CE,1,A
+AEC2029,Engineering Mechanics,4,CE,1,B
+AEC2028,Engineering Mathematics I,5,CE,1,B
+AEC2030,Engineering Physics,5,CE,1,B
+AEC2031,English,5,CE,1,B
+AEC2032,Surveying I,4,CE,1,B
+AEC2032,Structural Analysis,5,CE,2,A
+AEC2033,Surveying II,5,CE,2,A
+AEC2031,Geotechnical Engineering,4,CE,2,A
+AEC2029,Fluid Mechanics,4,CE,2,A
+AEC2033,Building Materials,4,CE,2,A
+AEC2032,Structural Analysis,5,CE,2,B
+AEC2033,Surveying II,5,CE,2,B
+AEC2031,Geotechnical Engineering,5,CE,2,B
+AEC2029,Fluid Mechanics,5,CE,2,B
+AEC2033,Building Materials,5,CE,2,B
+AEC2029,RCC Design,4,CE,3,A
+AEC2031,Steel Structures,4,CE,3,A
+AEC2030,Transportation Engineering,4,CE,3,A
+AEC2030,Hydrology,5,CE,3,A
+AEC2028,Environmental Engineering,5,CE,3,A
+AEC2029,RCC Design,4,CE,3,B
+AEC2031,Steel Structures,4,CE,3,B
+AEC2030,Transportation Engineering,4,CE,3,B
+AEC2030,Hydrology,4,CE,3,B
+AEC2028,Environmental Engineering,5,CE,3,B
+AEC2029,Estimation,5,CE,4,A
+AEC2032,Advanced Structures,4,CE,4,A
+AEC2033,Construction Management,5,CE,4,A
+AEC2028,Earthquake Engineering,4,CE,4,A
+AEC2031,Project Work,5,CE,4,A
+AEC2029,Estimation,5,CE,4,B
+AEC2032,Advanced Structures,4,CE,4,B
+AEC2033,Construction Management,4,CE,4,B
+AEC2028,Earthquake Engineering,5,CE,4,B
+AEC2031,Project Work,5,CE,4,B
+AEC2008,Programming in C,4,CSE,1,A
+AEC2002,Engineering Mathematics I,5,CSE,1,A
+AEC2009,Engineering Physics,5,CSE,1,A
+AEC2004,English,5,CSE,1,A
+AEC2001,Engineering Drawing,4,CSE,1,A
+AEC2006,Programming in C,4,CSE,1,B
+AEC2002,Engineering Mathematics I,5,CSE,1,B
+AEC2003,Engineering Physics,4,CSE,1,B
+AEC2004,English,4,CSE,1,B
+AEC2001,Engineering Drawing,5,CSE,1,B
+AEC2005,Programming in C,4,CSE,1,C
+AEC2002,Engineering Mathematics I,5,CSE,1,C
+AEC2003,Engineering Physics,5,CSE,1,C
+AEC2004,English,5,CSE,1,C
+AEC2001,Engineering Drawing,5,CSE,1,C
+AEC2008,Data Structures,4,CSE,2,A
+AEC2005,Operating Systems,5,CSE,2,A
+AEC2007,DBMS,5,CSE,2,A
+AEC2006,Computer Networks,4,CSE,2,A
+AEC2009,OOP with Java,5,CSE,2,A
+AEC2008,Data Structures,4,CSE,2,B
+AEC2005,Operating Systems,5,CSE,2,B
+AEC2007,DBMS,5,CSE,2,B
+AEC2006,Computer Networks,5,CSE,2,B
+AEC2009,OOP with Java,5,CSE,2,B
+AEC2008,Data Structures,5,CSE,2,C
+AEC2005,Operating Systems,4,CSE,2,C
+AEC2007,DBMS,4,CSE,2,C
+AEC2006,Computer Networks,4,CSE,2,C
+AEC2009,OOP with Java,4,CSE,2,C
+AEC2001,Machine Learning,5,CSE,3,A
+AEC2008,Compiler Design,4,CSE,3,A
+AEC2006,AI,4,CSE,3,A
+AEC2003,Software Engineering,4,CSE,3,A
+AEC2004,Web Technologies,5,CSE,3,A
+AEC2001,Machine Learning,5,CSE,3,B
+AEC2008,Compiler Design,5,CSE,3,B
+AEC2006,AI,5,CSE,3,B
+AEC2003,Software Engineering,4,CSE,3,B
+AEC2004,Web Technologies,5,CSE,3,B
+AEC2001,Machine Learning,5,CSE,3,C
+AEC2008,Compiler Design,4,CSE,3,C
+AEC2006,AI,5,CSE,3,C
+AEC2003,Software Engineering,4,CSE,3,C
+AEC2004,Web Technologies,5,CSE,3,C
+AEC2009,Cloud Computing,4,CSE,4,A
+AEC2007,Big Data,5,CSE,4,A
+AEC2003,Information Security,4,CSE,4,A
+AEC2002,Deep Learning,4,CSE,4,A
+AEC2005,Project Work,5,CSE,4,A
+AEC2009,Cloud Computing,5,CSE,4,B
+AEC2007,Big Data,5,CSE,4,B
+AEC2003,Information Security,5,CSE,4,B
+AEC2002,Deep Learning,4,CSE,4,B
+AEC2005,Project Work,5,CSE,4,B
+AEC2009,Cloud Computing,4,CSE,4,C
+AEC2007,Big Data,4,CSE,4,C
+AEC2003,Information Security,4,CSE,4,C
+AEC2002,Deep Learning,5,CSE,4,C
+AEC2005,Project Work,5,CSE,4,C
+AEC2043,Python Programming,5,CSE (AI&ML),1,A
+AEC2041,Engineering Mathematics I,4,CSE (AI&ML),1,A
+AEC2041,Engineering Physics,4,CSE (AI&ML),1,A
+AEC2044,English,4,CSE (AI&ML),1,A
+AEC2044,Statistics,5,CSE (AI&ML),1,A
+AEC2043,Python Programming,4,CSE (AI&ML),1,B
+AEC2040,Engineering Mathematics I,4,CSE (AI&ML),1,B
+AEC2041,Engineering Physics,5,CSE (AI&ML),1,B
+AEC2042,English,4,CSE (AI&ML),1,B
+AEC2044,Statistics,5,CSE (AI&ML),1,B
+AEC2042,Deep Learning,4,CSE (AI&ML),2,A
+AEC2043,NLP,5,CSE (AI&ML),2,A
+AEC2045,AI Foundations,5,CSE (AI&ML),2,A
+AEC2040,Data Visualization,4,CSE (AI&ML),2,A
+AEC2041,Linear Algebra,5,CSE (AI&ML),2,A
+AEC2042,Deep Learning,4,CSE (AI&ML),2,B
+AEC2043,NLP,5,CSE (AI&ML),2,B
+AEC2045,AI Foundations,5,CSE (AI&ML),2,B
+AEC2040,Data Visualization,5,CSE (AI&ML),2,B
+AEC2041,Linear Algebra,5,CSE (AI&ML),2,B
+AEC2045,Reinforcement Learning,5,CSE (AI&ML),3,A
+AEC2044,Computer Vision,5,CSE (AI&ML),3,A
+AEC2045,Generative AI,4,CSE (AI&ML),3,A
+AEC2042,MLOps,5,CSE (AI&ML),3,A
+AEC2040,Neural Networks,4,CSE (AI&ML),3,A
+AEC2045,Reinforcement Learning,5,CSE (AI&ML),3,B
+AEC2044,Computer Vision,5,CSE (AI&ML),3,B
+AEC2045,Generative AI,4,CSE (AI&ML),3,B
+AEC2042,MLOps,5,CSE (AI&ML),3,B
+AEC2040,Neural Networks,5,CSE (AI&ML),3,B
+AEC2043,Advanced ML,5,CSE (AI&ML),4,A
+AEC2041,AI Ethics,4,CSE (AI&ML),4,A
+AEC2044,Edge AI,4,CSE (AI&ML),4,A
+AEC2042,Research Methods,5,CSE (AI&ML),4,A
+AEC2040,Project Work,5,CSE (AI&ML),4,A
+AEC2043,Advanced ML,5,CSE (AI&ML),4,B
+AEC2041,AI Ethics,4,CSE (AI&ML),4,B
+AEC2044,Edge AI,4,CSE (AI&ML),4,B
+AEC2042,Research Methods,5,CSE (AI&ML),4,B
+AEC2040,Project Work,4,CSE (AI&ML),4,B
+AEC2056,Programming in C,5,CSE (CS),1,A
+AEC2053,Engineering Mathematics I,4,CSE (CS),1,A
+AEC2054,Engineering Physics,5,CSE (CS),1,A
+AEC2055,English,4,CSE (CS),1,A
+AEC2054,Cyber Law Basics,5,CSE (CS),1,A
+AEC2056,Programming in C,5,CSE (CS),1,B
+AEC2053,Engineering Mathematics I,5,CSE (CS),1,B
+AEC2054,Engineering Physics,5,CSE (CS),1,B
+AEC2055,English,4,CSE (CS),1,B
+AEC2052,Cyber Law Basics,4,CSE (CS),1,B
+AEC2053,Ethical Hacking,4,CSE (CS),2,A
+AEC2057,Cryptography,4,CSE (CS),2,A
+AEC2052,Digital Forensics,5,CSE (CS),2,A
+AEC2055,Cyber Law,4,CSE (CS),2,A
+AEC2057,Network Security,5,CSE (CS),2,A
+AEC2053,Ethical Hacking,5,CSE (CS),2,B
+AEC2057,Cryptography,5,CSE (CS),2,B
+AEC2052,Digital Forensics,4,CSE (CS),2,B
+AEC2055,Cyber Law,5,CSE (CS),2,B
+AEC2057,Network Security,4,CSE (CS),2,B
+AEC2055,Malware Analysis,4,CSE (CS),3,A
+AEC2052,Penetration Testing,5,CSE (CS),3,A
+AEC2056,Incident Response,5,CSE (CS),3,A
+AEC2054,Cloud Security,4,CSE (CS),3,A
+AEC2053,Security Operations,5,CSE (CS),3,A
+AEC2055,Malware Analysis,4,CSE (CS),3,B
+AEC2052,Penetration Testing,4,CSE (CS),3,B
+AEC2056,Incident Response,4,CSE (CS),3,B
+AEC2054,Cloud Security,5,CSE (CS),3,B
+AEC2053,Security Operations,5,CSE (CS),3,B
+AEC2057,Advanced Forensics,5,CSE (CS),4,A
+AEC2052,Threat Intelligence,5,CSE (CS),4,A
+AEC2054,Blockchain Security,4,CSE (CS),4,A
+AEC2055,Security Architecture,4,CSE (CS),4,A
+AEC2056,Project Work,4,CSE (CS),4,A
+AEC2057,Advanced Forensics,4,CSE (CS),4,B
+AEC2052,Threat Intelligence,5,CSE (CS),4,B
+AEC2054,Blockchain Security,4,CSE (CS),4,B
+AEC2055,Security Architecture,4,CSE (CS),4,B
+AEC2056,Project Work,5,CSE (CS),4,B
+AEC2049,Python Programming,5,CSE (DS),1,A
+AEC2046,Engineering Mathematics I,5,CSE (DS),1,A
+AEC2049,Engineering Physics,4,CSE (DS),1,A
+AEC2050,English,5,CSE (DS),1,A
+AEC2050,Statistics,4,CSE (DS),1,A
+AEC2049,Python Programming,4,CSE (DS),1,B
+AEC2046,Engineering Mathematics I,5,CSE (DS),1,B
+AEC2047,Engineering Physics,5,CSE (DS),1,B
+AEC2048,English,4,CSE (DS),1,B
+AEC2050,Statistics,5,CSE (DS),1,B
+AEC2051,Big Data Analytics,5,CSE (DS),2,A
+AEC2050,Statistical Methods,5,CSE (DS),2,A
+AEC2047,Data Mining,5,CSE (DS),2,A
+AEC2048,Data Warehousing,5,CSE (DS),2,A
+AEC2049,R Programming,4,CSE (DS),2,A
+AEC2051,Big Data Analytics,5,CSE (DS),2,B
+AEC2050,Statistical Methods,5,CSE (DS),2,B
+AEC2047,Data Mining,4,CSE (DS),2,B
+AEC2048,Data Warehousing,4,CSE (DS),2,B
+AEC2049,R Programming,5,CSE (DS),2,B
+AEC2047,Predictive Analytics,4,CSE (DS),3,A
+AEC2049,Time Series,4,CSE (DS),3,A
+AEC2048,Text Mining,5,CSE (DS),3,A
+AEC2046,Business Intelligence,4,CSE (DS),3,A
+AEC2051,Data Engineering,5,CSE (DS),3,A
+AEC2047,Predictive Analytics,5,CSE (DS),3,B
+AEC2049,Time Series,5,CSE (DS),3,B
+AEC2048,Text Mining,4,CSE (DS),3,B
+AEC2046,Business Intelligence,5,CSE (DS),3,B
+AEC2051,Data Engineering,4,CSE (DS),3,B
+AEC2050,Advanced Analytics,5,CSE (DS),4,A
+AEC2051,Data Governance,5,CSE (DS),4,A
+AEC2046,AI for Business,5,CSE (DS),4,A
+AEC2048,Research Methods,5,CSE (DS),4,A
+AEC2047,Project Work,4,CSE (DS),4,A
+AEC2050,Advanced Analytics,4,CSE (DS),4,B
+AEC2051,Data Governance,5,CSE (DS),4,B
+AEC2046,AI for Business,5,CSE (DS),4,B
+AEC2048,Research Methods,4,CSE (DS),4,B
+AEC2047,Project Work,4,CSE (DS),4,B
+AEC2010,Basic Electronics,5,ECE,1,A
 AEC2012,Engineering Mathematics I,4,ECE,1,A
 AEC2013,Engineering Physics,4,ECE,1,A
-AEC2014,English,5,ECE,1,A
-AEC2015,Circuit Theory,5,ECE,1,A
-AEC2011,Basic Electronics,4,ECE,1,B
+AEC2013,English,5,ECE,1,A
+AEC2010,Circuit Theory,5,ECE,1,A
+AEC2010,Basic Electronics,4,ECE,1,B
 AEC2012,Engineering Mathematics I,5,ECE,1,B
 AEC2013,Engineering Physics,5,ECE,1,B
 AEC2014,English,5,ECE,1,B
-AEC2015,Circuit Theory,4,ECE,1,B
-AEC2011,Digital Signal Processing,5,ECE,2,A
-AEC2012,VLSI Design,4,ECE,2,A
-AEC2013,Microprocessors,4,ECE,2,A
-AEC2014,Signals & Systems,5,ECE,2,A
+AEC2011,Circuit Theory,4,ECE,1,B
+AEC2010,Digital Signal Processing,5,ECE,2,A
+AEC2013,VLSI Design,4,ECE,2,A
+AEC2011,Microprocessors,4,ECE,2,A
+AEC2012,Signals & Systems,5,ECE,2,A
 AEC2015,Analog Circuits,5,ECE,2,A
-AEC2011,Digital Signal Processing,5,ECE,2,B
-AEC2012,VLSI Design,5,ECE,2,B
-AEC2013,Microprocessors,5,ECE,2,B
-AEC2014,Signals & Systems,5,ECE,2,B
+AEC2010,Digital Signal Processing,5,ECE,2,B
+AEC2013,VLSI Design,5,ECE,2,B
+AEC2011,Microprocessors,5,ECE,2,B
+AEC2012,Signals & Systems,5,ECE,2,B
 AEC2015,Analog Circuits,5,ECE,2,B
-AEC2011,Embedded Systems,5,ECE,3,A
-AEC2012,Antenna Theory,4,ECE,3,A
-AEC2013,Wireless Communications,4,ECE,3,A
-AEC2014,Control Systems,5,ECE,3,A
-AEC2015,Digital Communications,5,ECE,3,A
-AEC2011,Embedded Systems,4,ECE,3,B
-AEC2012,Antenna Theory,4,ECE,3,B
-AEC2013,Wireless Communications,4,ECE,3,B
-AEC2014,Control Systems,4,ECE,3,B
-AEC2015,Digital Communications,4,ECE,3,B
-AEC2011,IoT,5,ECE,4,A
-AEC2012,Radar Systems,5,ECE,4,A
-AEC2013,Satellite Communication,4,ECE,4,A
-AEC2014,MEMS,5,ECE,4,A
+AEC2013,Embedded Systems,5,ECE,3,A
+AEC2014,Antenna Theory,4,ECE,3,A
+AEC2014,Wireless Communications,4,ECE,3,A
+AEC2015,Control Systems,5,ECE,3,A
+AEC2011,Digital Communications,5,ECE,3,A
+AEC2013,Embedded Systems,4,ECE,3,B
+AEC2014,Antenna Theory,4,ECE,3,B
+AEC2014,Wireless Communications,4,ECE,3,B
+AEC2015,Control Systems,4,ECE,3,B
+AEC2011,Digital Communications,4,ECE,3,B
+AEC2010,IoT,5,ECE,4,A
+AEC2014,Radar Systems,5,ECE,4,A
+AEC2011,Satellite Communication,4,ECE,4,A
+AEC2012,MEMS,5,ECE,4,A
 AEC2015,Project Work,5,ECE,4,A
-AEC2011,IoT,5,ECE,4,B
-AEC2012,Radar Systems,5,ECE,4,B
-AEC2013,Satellite Communication,5,ECE,4,B
-AEC2014,MEMS,5,ECE,4,B
+AEC2010,IoT,5,ECE,4,B
+AEC2014,Radar Systems,5,ECE,4,B
+AEC2011,Satellite Communication,5,ECE,4,B
+AEC2012,MEMS,5,ECE,4,B
 AEC2015,Project Work,5,ECE,4,B
 AEC2017,Basic Electrical Engineering,4,EEE,1,A
 AEC2018,Engineering Mathematics I,4,EEE,1,A
 AEC2019,Engineering Physics,5,EEE,1,A
-AEC2020,English,5,EEE,1,A
-AEC2021,Circuit Theory,5,EEE,1,A
-AEC2017,Basic Electrical Engineering,4,EEE,1,B
+AEC2018,English,5,EEE,1,A
+AEC2017,Circuit Theory,5,EEE,1,A
+AEC2016,Basic Electrical Engineering,4,EEE,1,B
 AEC2018,Engineering Mathematics I,5,EEE,1,B
 AEC2019,Engineering Physics,5,EEE,1,B
 AEC2020,English,4,EEE,1,B
-AEC2021,Circuit Theory,5,EEE,1,B
+AEC2017,Circuit Theory,5,EEE,1,B
 AEC2017,Power Systems,4,EEE,2,A
-AEC2018,Electrical Machines,5,EEE,2,A
-AEC2019,Control Systems,5,EEE,2,A
+AEC2016,Electrical Machines,5,EEE,2,A
+AEC2021,Control Systems,5,EEE,2,A
 AEC2020,Power Electronics,4,EEE,2,A
-AEC2021,Measurements,5,EEE,2,A
+AEC2018,Measurements,5,EEE,2,A
 AEC2017,Power Systems,4,EEE,2,B
-AEC2018,Electrical Machines,5,EEE,2,B
-AEC2019,Control Systems,5,EEE,2,B
+AEC2016,Electrical Machines,5,EEE,2,B
+AEC2021,Control Systems,5,EEE,2,B
 AEC2020,Power Electronics,5,EEE,2,B
-AEC2021,Measurements,4,EEE,2,B
-AEC2017,High Voltage Engineering,4,EEE,3,A
+AEC2018,Measurements,4,EEE,2,B
+AEC2021,High Voltage Engineering,4,EEE,3,A
 AEC2018,Switchgear,5,EEE,3,A
-AEC2019,Renewable Energy,4,EEE,3,A
-AEC2020,Drives,5,EEE,3,A
-AEC2021,Power System Analysis,5,EEE,3,A
-AEC2017,High Voltage Engineering,4,EEE,3,B
+AEC2017,Renewable Energy,4,EEE,3,A
+AEC2019,Drives,5,EEE,3,A
+AEC2016,Power System Analysis,5,EEE,3,A
+AEC2021,High Voltage Engineering,4,EEE,3,B
 AEC2018,Switchgear,5,EEE,3,B
-AEC2019,Renewable Energy,5,EEE,3,B
-AEC2020,Drives,5,EEE,3,B
-AEC2021,Power System Analysis,4,EEE,3,B
-AEC2017,Smart Grid,4,EEE,4,A
-AEC2018,HVDC,5,EEE,4,A
+AEC2017,Renewable Energy,5,EEE,3,B
+AEC2019,Drives,5,EEE,3,B
+AEC2016,Power System Analysis,4,EEE,3,B
+AEC2016,Smart Grid,4,EEE,4,A
+AEC2021,HVDC,5,EEE,4,A
 AEC2019,Power Quality,5,EEE,4,A
 AEC2020,Energy Auditing,4,EEE,4,A
-AEC2021,Project Work,4,EEE,4,A
-AEC2017,Smart Grid,4,EEE,4,B
-AEC2018,HVDC,5,EEE,4,B
+AEC2020,Project Work,4,EEE,4,A
+AEC2016,Smart Grid,4,EEE,4,B
+AEC2021,HVDC,5,EEE,4,B
 AEC2019,Power Quality,4,EEE,4,B
 AEC2020,Energy Auditing,4,EEE,4,B
-AEC2021,Project Work,5,EEE,4,B
-AEC2023,Engineering Mechanics,4,ME,1,A
-AEC2024,Engineering Mathematics I,5,ME,1,A
+AEC2020,Project Work,5,EEE,4,B
+AEC2038,Programming in C,4,IT,1,A
+AEC2038,Engineering Mathematics I,4,IT,1,A
+AEC2036,Engineering Physics,5,IT,1,A
+AEC2037,English,4,IT,1,A
+AEC2034,Digital Logic,4,IT,1,A
+AEC2038,Programming in C,4,IT,1,B
+AEC2035,Engineering Mathematics I,4,IT,1,B
+AEC2036,Engineering Physics,5,IT,1,B
+AEC2037,English,5,IT,1,B
+AEC2034,Digital Logic,5,IT,1,B
+AEC2034,Java Programming,4,IT,2,A
+AEC2039,Computer Architecture,5,IT,2,A
+AEC2038,Information Security,4,IT,2,A
+AEC2035,Data Structures,4,IT,2,A
+AEC2037,Web Development,5,IT,2,A
+AEC2034,Java Programming,4,IT,2,B
+AEC2039,Computer Architecture,5,IT,2,B
+AEC2038,Information Security,5,IT,2,B
+AEC2035,Data Structures,5,IT,2,B
+AEC2037,Web Development,5,IT,2,B
+AEC2038,Software Testing,5,IT,3,A
+AEC2034,Mobile Computing,5,IT,3,A
+AEC2036,Data Mining,5,IT,3,A
+AEC2035,Network Security,4,IT,3,A
+AEC2039,DevOps,4,IT,3,A
+AEC2038,Software Testing,5,IT,3,B
+AEC2034,Mobile Computing,4,IT,3,B
+AEC2036,Data Mining,4,IT,3,B
+AEC2035,Network Security,5,IT,3,B
+AEC2039,DevOps,5,IT,3,B
+AEC2039,Cloud Architecture,4,IT,4,A
+AEC2037,Blockchain,5,IT,4,A
+AEC2036,AI Applications,4,IT,4,A
+AEC2034,Cyber Security,4,IT,4,A
+AEC2035,Project Work,5,IT,4,A
+AEC2039,Cloud Architecture,5,IT,4,B
+AEC2037,Blockchain,5,IT,4,B
+AEC2036,AI Applications,5,IT,4,B
+AEC2034,Cyber Security,4,IT,4,B
+AEC2035,Project Work,4,IT,4,B
+AEC2058,Management Principles,5,MBA,1,A
+AEC2058,Management Principles,5,MBA,1,B
+AEC2059,Business Economics,4,MBA,1,A
+AEC2059,Business Economics,4,MBA,1,B
+AEC2060,Organizational Behavior,5,MBA,1,A
+AEC2060,Organizational Behavior,5,MBA,1,B
+AEC2061,Accounting,4,MBA,1,A
+AEC2061,Accounting,4,MBA,1,B
+AEC2062,Business Communication,4,MBA,1,A
+AEC2062,Business Communication,4,MBA,1,B
+AEC2061,Marketing Management,5,MBA,2,A
+AEC2061,Marketing Management,4,MBA,2,B
+AEC2062,Financial Accounting,5,MBA,2,A
+AEC2062,Financial Accounting,4,MBA,2,B
+AEC2063,Business Analytics,5,MBA,2,A
+AEC2063,Business Analytics,5,MBA,2,B
+AEC2058,HR Management,4,MBA,2,A
+AEC2058,HR Management,5,MBA,2,B
+AEC2059,Operations Management,4,MBA,2,A
+AEC2059,Operations Management,5,MBA,2,B
+AEC2064,Programming in Python,4,MCA,1,A
+AEC2064,Programming in Python,5,MCA,1,B
+AEC2065,Discrete Mathematics,5,MCA,1,A
+AEC2065,Discrete Mathematics,5,MCA,1,B
+AEC2066,Data Structures,5,MCA,1,A
+AEC2066,Data Structures,4,MCA,1,B
+AEC2067,DBMS,5,MCA,1,A
+AEC2067,DBMS,4,MCA,1,B
+AEC2068,Web Technologies,5,MCA,1,A
+AEC2068,Web Technologies,5,MCA,1,B
+AEC2067,Software Project Management,4,MCA,2,A
+AEC2067,Software Project Management,5,MCA,2,B
+AEC2068,Cloud Computing,5,MCA,2,A
+AEC2068,Cloud Computing,5,MCA,2,B
+AEC2069,Machine Learning,5,MCA,2,A
+AEC2069,Machine Learning,5,MCA,2,B
+AEC2064,Mobile App Development,4,MCA,2,A
+AEC2064,Mobile App Development,5,MCA,2,B
+AEC2065,Agile Methods,4,MCA,2,A
+AEC2065,Agile Methods,5,MCA,2,B
+AEC2025,Engineering Mechanics,4,ME,1,A
+AEC2023,Engineering Mathematics I,5,ME,1,A
 AEC2025,Engineering Physics,4,ME,1,A
 AEC2026,English,4,ME,1,A
-AEC2027,Engineering Drawing,5,ME,1,A
-AEC2023,Engineering Mechanics,5,ME,1,B
-AEC2024,Engineering Mathematics I,4,ME,1,B
+AEC2022,Engineering Drawing,5,ME,1,A
+AEC2024,Engineering Mechanics,5,ME,1,B
+AEC2023,Engineering Mathematics I,4,ME,1,B
 AEC2025,Engineering Physics,5,ME,1,B
 AEC2026,English,5,ME,1,B
-AEC2027,Engineering Drawing,5,ME,1,B
-AEC2023,Thermodynamics,5,ME,2,A
-AEC2024,Fluid Mechanics,4,ME,2,A
-AEC2025,Manufacturing Processes,5,ME,2,A
-AEC2026,Strength of Materials,4,ME,2,A
-AEC2027,Kinematics,5,ME,2,A
-AEC2023,Thermodynamics,5,ME,2,B
-AEC2024,Fluid Mechanics,5,ME,2,B
-AEC2025,Manufacturing Processes,5,ME,2,B
-AEC2026,Strength of Materials,5,ME,2,B
-AEC2027,Kinematics,5,ME,2,B
-AEC2023,Heat Transfer,4,ME,3,A
-AEC2024,Machine Design,4,ME,3,A
-AEC2025,IC Engines,4,ME,3,A
-AEC2026,CAD/CAM,4,ME,3,A
-AEC2027,Industrial Engineering,5,ME,3,A
-AEC2023,Heat Transfer,4,ME,3,B
-AEC2024,Machine Design,5,ME,3,B
-AEC2025,IC Engines,5,ME,3,B
-AEC2026,CAD/CAM,4,ME,3,B
-AEC2027,Industrial Engineering,5,ME,3,B
-AEC2023,Robotics,4,ME,4,A
-AEC2024,FEA,4,ME,4,A
-AEC2025,Automobile Engineering,4,ME,4,A
-AEC2026,CNC Machines,4,ME,4,A
+AEC2022,Engineering Drawing,5,ME,1,B
+AEC2026,Thermodynamics,5,ME,2,A
+AEC2026,Fluid Mechanics,4,ME,2,A
+AEC2024,Manufacturing Processes,5,ME,2,A
+AEC2025,Strength of Materials,4,ME,2,A
+AEC2023,Kinematics,5,ME,2,A
+AEC2026,Thermodynamics,5,ME,2,B
+AEC2027,Fluid Mechanics,5,ME,2,B
+AEC2024,Manufacturing Processes,5,ME,2,B
+AEC2025,Strength of Materials,5,ME,2,B
+AEC2023,Kinematics,5,ME,2,B
+AEC2022,Heat Transfer,4,ME,3,A
+AEC2025,Machine Design,4,ME,3,A
+AEC2027,IC Engines,4,ME,3,A
+AEC2027,CAD/CAM,4,ME,3,A
+AEC2022,Industrial Engineering,5,ME,3,A
+AEC2022,Heat Transfer,4,ME,3,B
+AEC2025,Machine Design,5,ME,3,B
+AEC2027,IC Engines,5,ME,3,B
+AEC2027,CAD/CAM,4,ME,3,B
+AEC2022,Industrial Engineering,5,ME,3,B
+AEC2024,Robotics,4,ME,4,A
+AEC2026,FEA,4,ME,4,A
+AEC2023,Automobile Engineering,4,ME,4,A
+AEC2024,CNC Machines,4,ME,4,A
 AEC2027,Project Work,4,ME,4,A
-AEC2023,Robotics,4,ME,4,B
-AEC2024,FEA,4,ME,4,B
-AEC2025,Automobile Engineering,5,ME,4,B
-AEC2026,CNC Machines,4,ME,4,B
+AEC2024,Robotics,4,ME,4,B
+AEC2026,FEA,4,ME,4,B
+AEC2023,Automobile Engineering,5,ME,4,B
+AEC2024,CNC Machines,4,ME,4,B
 AEC2027,Project Work,5,ME,4,B
-AEC2029,Engineering Mechanics,4,CE,1,A
-AEC2030,Engineering Mathematics I,5,CE,1,A
-AEC2031,Engineering Physics,5,CE,1,A
-AEC2032,English,4,CE,1,A
-AEC2033,Surveying I,5,CE,1,A
-AEC2029,Engineering Mechanics,4,CE,1,B
-AEC2030,Engineering Mathematics I,5,CE,1,B
-AEC2031,Engineering Physics,5,CE,1,B
-AEC2032,English,5,CE,1,B
-AEC2033,Surveying I,4,CE,1,B
-AEC2029,Structural Analysis,5,CE,2,A
-AEC2030,Surveying II,5,CE,2,A
-AEC2031,Geotechnical Engineering,4,CE,2,A
-AEC2032,Fluid Mechanics,4,CE,2,A
-AEC2033,Building Materials,4,CE,2,A
-AEC2029,Structural Analysis,5,CE,2,B
-AEC2030,Surveying II,5,CE,2,B
-AEC2031,Geotechnical Engineering,5,CE,2,B
-AEC2032,Fluid Mechanics,5,CE,2,B
-AEC2033,Building Materials,5,CE,2,B
-AEC2029,RCC Design,4,CE,3,A
-AEC2030,Steel Structures,4,CE,3,A
-AEC2031,Transportation Engineering,4,CE,3,A
-AEC2032,Hydrology,5,CE,3,A
-AEC2033,Environmental Engineering,5,CE,3,A
-AEC2029,RCC Design,4,CE,3,B
-AEC2030,Steel Structures,4,CE,3,B
-AEC2031,Transportation Engineering,4,CE,3,B
-AEC2032,Hydrology,4,CE,3,B
-AEC2033,Environmental Engineering,5,CE,3,B
-AEC2029,Estimation,5,CE,4,A
-AEC2030,Advanced Structures,4,CE,4,A
-AEC2031,Construction Management,5,CE,4,A
-AEC2032,Earthquake Engineering,4,CE,4,A
-AEC2033,Project Work,5,CE,4,A
-AEC2029,Estimation,5,CE,4,B
-AEC2030,Advanced Structures,4,CE,4,B
-AEC2031,Construction Management,4,CE,4,B
-AEC2032,Earthquake Engineering,5,CE,4,B
-AEC2033,Project Work,5,CE,4,B
-AEC2035,Programming in C,4,IT,1,A
-AEC2036,Engineering Mathematics I,4,IT,1,A
-AEC2037,Engineering Physics,5,IT,1,A
-AEC2038,English,4,IT,1,A
-AEC2039,Digital Logic,4,IT,1,A
-AEC2035,Programming in C,4,IT,1,B
-AEC2036,Engineering Mathematics I,4,IT,1,B
-AEC2037,Engineering Physics,5,IT,1,B
-AEC2038,English,5,IT,1,B
-AEC2039,Digital Logic,5,IT,1,B
-AEC2035,Java Programming,4,IT,2,A
-AEC2036,Computer Architecture,5,IT,2,A
-AEC2037,Information Security,4,IT,2,A
-AEC2038,Data Structures,4,IT,2,A
-AEC2039,Web Development,5,IT,2,A
-AEC2035,Java Programming,4,IT,2,B
-AEC2036,Computer Architecture,5,IT,2,B
-AEC2037,Information Security,5,IT,2,B
-AEC2038,Data Structures,5,IT,2,B
-AEC2039,Web Development,5,IT,2,B
-AEC2035,Software Testing,5,IT,3,A
-AEC2036,Mobile Computing,5,IT,3,A
-AEC2037,Data Mining,5,IT,3,A
-AEC2038,Network Security,4,IT,3,A
-AEC2039,DevOps,4,IT,3,A
-AEC2035,Software Testing,5,IT,3,B
-AEC2036,Mobile Computing,4,IT,3,B
-AEC2037,Data Mining,4,IT,3,B
-AEC2038,Network Security,5,IT,3,B
-AEC2039,DevOps,5,IT,3,B
-AEC2035,Cloud Architecture,4,IT,4,A
-AEC2036,Blockchain,5,IT,4,A
-AEC2037,AI Applications,4,IT,4,A
-AEC2038,Cyber Security,4,IT,4,A
-AEC2039,Project Work,5,IT,4,A
-AEC2035,Cloud Architecture,5,IT,4,B
-AEC2036,Blockchain,5,IT,4,B
-AEC2037,AI Applications,5,IT,4,B
-AEC2038,Cyber Security,4,IT,4,B
-AEC2039,Project Work,4,IT,4,B
-AEC2041,Python Programming,5,CSE (AI&ML),1,A
-AEC2042,Engineering Mathematics I,4,CSE (AI&ML),1,A
-AEC2043,Engineering Physics,4,CSE (AI&ML),1,A
-AEC2044,English,4,CSE (AI&ML),1,A
-AEC2045,Statistics,5,CSE (AI&ML),1,A
-AEC2041,Python Programming,4,CSE (AI&ML),1,B
-AEC2042,Engineering Mathematics I,4,CSE (AI&ML),1,B
-AEC2043,Engineering Physics,5,CSE (AI&ML),1,B
-AEC2044,English,4,CSE (AI&ML),1,B
-AEC2045,Statistics,5,CSE (AI&ML),1,B
-AEC2041,Deep Learning,4,CSE (AI&ML),2,A
-AEC2042,NLP,5,CSE (AI&ML),2,A
-AEC2043,AI Foundations,5,CSE (AI&ML),2,A
-AEC2044,Data Visualization,4,CSE (AI&ML),2,A
-AEC2045,Linear Algebra,5,CSE (AI&ML),2,A
-AEC2041,Deep Learning,4,CSE (AI&ML),2,B
-AEC2042,NLP,5,CSE (AI&ML),2,B
-AEC2043,AI Foundations,5,CSE (AI&ML),2,B
-AEC2044,Data Visualization,5,CSE (AI&ML),2,B
-AEC2045,Linear Algebra,5,CSE (AI&ML),2,B
-AEC2041,Reinforcement Learning,5,CSE (AI&ML),3,A
-AEC2042,Computer Vision,5,CSE (AI&ML),3,A
-AEC2043,Generative AI,4,CSE (AI&ML),3,A
-AEC2044,MLOps,5,CSE (AI&ML),3,A
-AEC2045,Neural Networks,4,CSE (AI&ML),3,A
-AEC2041,Reinforcement Learning,5,CSE (AI&ML),3,B
-AEC2042,Computer Vision,5,CSE (AI&ML),3,B
-AEC2043,Generative AI,4,CSE (AI&ML),3,B
-AEC2044,MLOps,5,CSE (AI&ML),3,B
-AEC2045,Neural Networks,5,CSE (AI&ML),3,B
-AEC2041,Advanced ML,5,CSE (AI&ML),4,A
-AEC2042,AI Ethics,4,CSE (AI&ML),4,A
-AEC2043,Edge AI,4,CSE (AI&ML),4,A
-AEC2044,Research Methods,5,CSE (AI&ML),4,A
-AEC2045,Project Work,5,CSE (AI&ML),4,A
-AEC2041,Advanced ML,5,CSE (AI&ML),4,B
-AEC2042,AI Ethics,4,CSE (AI&ML),4,B
-AEC2043,Edge AI,4,CSE (AI&ML),4,B
-AEC2044,Research Methods,5,CSE (AI&ML),4,B
-AEC2045,Project Work,4,CSE (AI&ML),4,B
-AEC2047,Python Programming,5,CSE (DS),1,A
-AEC2048,Engineering Mathematics I,5,CSE (DS),1,A
-AEC2049,Engineering Physics,4,CSE (DS),1,A
-AEC2050,English,5,CSE (DS),1,A
-AEC2051,Statistics,4,CSE (DS),1,A
-AEC2047,Python Programming,4,CSE (DS),1,B
-AEC2048,Engineering Mathematics I,5,CSE (DS),1,B
-AEC2049,Engineering Physics,5,CSE (DS),1,B
-AEC2050,English,4,CSE (DS),1,B
-AEC2051,Statistics,5,CSE (DS),1,B
-AEC2047,Big Data Analytics,5,CSE (DS),2,A
-AEC2048,Statistical Methods,5,CSE (DS),2,A
-AEC2049,Data Mining,5,CSE (DS),2,A
-AEC2050,Data Warehousing,5,CSE (DS),2,A
-AEC2051,R Programming,4,CSE (DS),2,A
-AEC2047,Big Data Analytics,5,CSE (DS),2,B
-AEC2048,Statistical Methods,5,CSE (DS),2,B
-AEC2049,Data Mining,4,CSE (DS),2,B
-AEC2050,Data Warehousing,4,CSE (DS),2,B
-AEC2051,R Programming,5,CSE (DS),2,B
-AEC2047,Predictive Analytics,4,CSE (DS),3,A
-AEC2048,Time Series,4,CSE (DS),3,A
-AEC2049,Text Mining,5,CSE (DS),3,A
-AEC2050,Business Intelligence,4,CSE (DS),3,A
-AEC2051,Data Engineering,5,CSE (DS),3,A
-AEC2047,Predictive Analytics,5,CSE (DS),3,B
-AEC2048,Time Series,5,CSE (DS),3,B
-AEC2049,Text Mining,4,CSE (DS),3,B
-AEC2050,Business Intelligence,5,CSE (DS),3,B
-AEC2051,Data Engineering,4,CSE (DS),3,B
-AEC2047,Advanced Analytics,5,CSE (DS),4,A
-AEC2048,Data Governance,5,CSE (DS),4,A
-AEC2049,AI for Business,5,CSE (DS),4,A
-AEC2050,Research Methods,5,CSE (DS),4,A
-AEC2051,Project Work,4,CSE (DS),4,A
-AEC2047,Advanced Analytics,4,CSE (DS),4,B
-AEC2048,Data Governance,5,CSE (DS),4,B
-AEC2049,AI for Business,5,CSE (DS),4,B
-AEC2050,Research Methods,4,CSE (DS),4,B
-AEC2051,Project Work,4,CSE (DS),4,B
-AEC2053,Programming in C,5,CSE (CS),1,A
-AEC2054,Engineering Mathematics I,4,CSE (CS),1,A
-AEC2055,Engineering Physics,5,CSE (CS),1,A
-AEC2056,English,4,CSE (CS),1,A
-AEC2057,Cyber Law Basics,5,CSE (CS),1,A
-AEC2053,Programming in C,5,CSE (CS),1,B
-AEC2054,Engineering Mathematics I,5,CSE (CS),1,B
-AEC2055,Engineering Physics,5,CSE (CS),1,B
-AEC2056,English,4,CSE (CS),1,B
-AEC2057,Cyber Law Basics,4,CSE (CS),1,B
-AEC2053,Ethical Hacking,4,CSE (CS),2,A
-AEC2054,Cryptography,4,CSE (CS),2,A
-AEC2055,Digital Forensics,5,CSE (CS),2,A
-AEC2056,Cyber Law,4,CSE (CS),2,A
-AEC2057,Network Security,5,CSE (CS),2,A
-AEC2053,Ethical Hacking,5,CSE (CS),2,B
-AEC2054,Cryptography,5,CSE (CS),2,B
-AEC2055,Digital Forensics,4,CSE (CS),2,B
-AEC2056,Cyber Law,5,CSE (CS),2,B
-AEC2057,Network Security,4,CSE (CS),2,B
-AEC2053,Malware Analysis,4,CSE (CS),3,A
-AEC2054,Penetration Testing,5,CSE (CS),3,A
-AEC2055,Incident Response,5,CSE (CS),3,A
-AEC2056,Cloud Security,4,CSE (CS),3,A
-AEC2057,Security Operations,5,CSE (CS),3,A
-AEC2053,Malware Analysis,4,CSE (CS),3,B
-AEC2054,Penetration Testing,4,CSE (CS),3,B
-AEC2055,Incident Response,4,CSE (CS),3,B
-AEC2056,Cloud Security,5,CSE (CS),3,B
-AEC2057,Security Operations,5,CSE (CS),3,B
-AEC2053,Advanced Forensics,5,CSE (CS),4,A
-AEC2054,Threat Intelligence,5,CSE (CS),4,A
-AEC2055,Blockchain Security,4,CSE (CS),4,A
-AEC2056,Security Architecture,4,CSE (CS),4,A
-AEC2057,Project Work,4,CSE (CS),4,A
-AEC2053,Advanced Forensics,4,CSE (CS),4,B
-AEC2054,Threat Intelligence,5,CSE (CS),4,B
-AEC2055,Blockchain Security,4,CSE (CS),4,B
-AEC2056,Security Architecture,4,CSE (CS),4,B
-AEC2057,Project Work,5,CSE (CS),4,B
-AEC2059,Management Principles,5,MBA,1,A
-AEC2060,Business Economics,4,MBA,1,A
-AEC2061,Organizational Behavior,5,MBA,1,A
-AEC2062,Accounting,4,MBA,1,A
-AEC2063,Business Communication,4,MBA,1,A
-AEC2059,Management Principles,5,MBA,1,B
-AEC2060,Business Economics,4,MBA,1,B
-AEC2061,Organizational Behavior,5,MBA,1,B
-AEC2062,Accounting,4,MBA,1,B
-AEC2063,Business Communication,4,MBA,1,B
-AEC2059,Marketing Management,5,MBA,2,A
-AEC2060,Financial Accounting,5,MBA,2,A
-AEC2061,Business Analytics,5,MBA,2,A
-AEC2062,HR Management,4,MBA,2,A
-AEC2063,Operations Management,4,MBA,2,A
-AEC2059,Marketing Management,4,MBA,2,B
-AEC2060,Financial Accounting,4,MBA,2,B
-AEC2061,Business Analytics,5,MBA,2,B
-AEC2062,HR Management,5,MBA,2,B
-AEC2063,Operations Management,5,MBA,2,B
-AEC2065,Programming in Python,4,MCA,1,A
-AEC2066,Discrete Mathematics,5,MCA,1,A
-AEC2067,Data Structures,5,MCA,1,A
-AEC2068,DBMS,5,MCA,1,A
-AEC2069,Web Technologies,5,MCA,1,A
-AEC2065,Programming in Python,5,MCA,1,B
-AEC2066,Discrete Mathematics,5,MCA,1,B
-AEC2067,Data Structures,4,MCA,1,B
-AEC2068,DBMS,4,MCA,1,B
-AEC2069,Web Technologies,5,MCA,1,B
-AEC2065,Software Project Management,4,MCA,2,A
-AEC2066,Cloud Computing,5,MCA,2,A
-AEC2067,Machine Learning,5,MCA,2,A
-AEC2068,Mobile App Development,4,MCA,2,A
-AEC2069,Agile Methods,4,MCA,2,A
-AEC2065,Software Project Management,5,MCA,2,B
-AEC2066,Cloud Computing,5,MCA,2,B
-AEC2067,Machine Learning,5,MCA,2,B
-AEC2068,Mobile App Development,5,MCA,2,B
-AEC2069,Agile Methods,5,MCA,2,B
