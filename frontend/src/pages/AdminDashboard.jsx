@@ -1199,18 +1199,18 @@ const AdminDashboard = () => {
         }
     };
 
-    const fetchDashboardStats = async () => {
+    async function fetchDashboardStats() {
         try {
             const res = await api.get('/analytics/dashboard-stats');
             setDashboardStats(res.data);
         } catch (_) {}
-    };
+    }
 
-    const fetchData = async () => {
+    // Using function declarations (hoisted) to avoid temporal dead zone in production builds
+    async function fetchData() {
         setLoading(true);
         await Promise.all([fetchStudents(), fetchSections(), fetchFaculty(), fetchAssignments(), fetchDashboardStats()]);
         setLoading(false);
-        // Log session start with loaded data summary
         setSessionLogs(prev => {
             if (prev.length === 0) {
                 return [
@@ -1219,9 +1219,9 @@ const AdminDashboard = () => {
             }
             return prev;
         });
-    };
+    }
 
-    const fetchFaculty = async () => {
+    async function fetchFaculty() {
         try {
             const res = await api.get('/users/');
             const facultyList = res.data.filter(u => u.role === 'faculty');
@@ -1230,18 +1230,18 @@ const AdminDashboard = () => {
         } catch (err) {
             console.error(err);
         }
-    };
+    }
 
-    const fetchAssignments = async () => {
+    async function fetchAssignments() {
         try {
             const res = await api.get('/assignments/');
             setAssignments(res.data);
         } catch (err) {
             console.error(err);
         }
-    };
+    }
 
-    const fetchStudents = async () => {
+    async function fetchStudents() {
         try {
             const res = await api.get('/students/');
             setStudents(res.data);
@@ -1249,9 +1249,9 @@ const AdminDashboard = () => {
         } catch (err) {
             console.error(err);
         }
-    };
+    }
 
-    const fetchSections = async () => {
+    async function fetchSections() {
         try {
             const res = await api.get('/sections/');
             setSections(res.data);
@@ -1259,18 +1259,18 @@ const AdminDashboard = () => {
         } catch (err) {
             console.error(err);
         }
-    };
+    }
 
-    const fetchActivityLogs = async () => {
+    async function fetchActivityLogs() {
         setActivityLoading(true);
         try {
             const res = await api.get('/activity/?limit=200');
             setActivityLogs(res.data);
         } catch (_) {}
         setActivityLoading(false);
-    };
+    }
 
-    const fetchAttendanceReports = async (days = 30) => {
+    async function fetchAttendanceReports(days = 30) {
         setAttendanceLoading(true);
         try {
             const [trends, dept, secComp, low] = await Promise.all([
@@ -1285,7 +1285,7 @@ const AdminDashboard = () => {
             setLowAttendance(low.data);
         } catch (_) {}
         setAttendanceLoading(false);
-    };
+    }
 
     // Init useEffect — placed after all fetch function declarations to avoid TDZ
     useEffect(() => {
